@@ -1,0 +1,77 @@
+.hero-section{
+
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxsn2MVC3CnpfO0o82aaLK0ePVJlnO6Af9pg&s) no-repeat center ;
+    background-size: cover;
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(177, 40, 40);
+    text-shadow:2px 2px 5px rgba(0,0,0,0.7);
+    font-size: 50px;
+}
+.service-card img{
+    height:150px;
+    object-fit: cover;
+}
+.testimonial{
+background-color: white;
+padding:50px 20px;
+}
+.footer{
+    background-color: rgb(136, 127, 255);
+    color:white;
+    padding:40px 0;
+    text-align: center;
+}
+.footer a{
+    color:yellow;
+    text-decoration: none;
+}
+.chat-bot{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background-color: blue;
+    color:white;
+    border:none;
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.chat-bot :hover{
+    background-color: blue;
+}
+.chat-popup{
+    position: fixed;
+    bottom: 90px;
+    right:20px;
+    background-color: white;
+    border:1px solid white;
+    width:300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+}
+.chat-popup-header{
+    background-color: blue;
+    color:white;
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+}
+.chat-popup-body{
+    padding:10px;
+    height: 200px;
+    overflow-y:auto;
+}
+.chat-popup-footer{
+    flex:1;
+    margin-right:5px;
+}
+
